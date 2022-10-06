@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_modify"
+            android:icon="@drawable/edituser"
+            android:title="수정 하고파" />
+        <item
+            android:id="@+id/recommend"
+            android:icon="@drawable/ping"
+            android:title="추천 하고파" />
+        <item
+            android:id="@+id/notice"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="공지사항 보고파" />
+        <item
+            android:id="@+id/login"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="로그인 하고파" />
+        <item
+            android:id="@+id/signup"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="회원가입 하고파" />
+        <item
+            android:id="@+id/goods"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="쇼핑 하고파" />
+    </group>
+
+</menu>
